@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: solid black;
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid gray;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table> <!--Inside of which are two child elements -->
+        <thead> <!--first child   table heads begin -->
+
+            <th>Ocean</th>                                 <!--first table head-->
+            <th>Avarage Depth</th>                         <!--second table head-->
+            <th>Maximum Depth</th>                         <!--third table head-->
+
+        </thead> <!--first child   table heads end -->
+        
+        <tbody> <!--second child  table body begin-->
+
+            <tr> <!--table row begin-->
+
+                <td>Pacific Ocean</td>                     <!--first table data-->
+                <td>4,280 m</td>                           <!--second table data--> 
+                <td>10,911 m</td>                          <!--third table data-->
+                                   
+            </tr><!--table row end-->
+
+            <tr><!--table row begin-->
+                <td>Atlantic Ocean</td>
+                <td>3,646 m</td>
+                <td>8,486 m</td>            
+            </tr><!--table row end-->
+
+        </tbody> <!--second child table body end-->
+
+    </table>
+</body>
+</html>
